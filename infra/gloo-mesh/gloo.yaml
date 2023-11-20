@@ -30,5 +30,6 @@ spec:
       interval: 1m
   values:
     installCRDs: true
-    common.cluster: gloo-cluster1
+    common:
+      cluster: gloo-cluster1
 
